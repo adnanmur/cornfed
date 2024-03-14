@@ -1381,7 +1381,7 @@
 
 .hero-main.mobile-center {
   height: 800px;
-  background-image: url('../images/Header.jpg');
+  background-image: url('../images/Header_1.webp');
   background-position: 0%;
   flex-flow: column;
   justify-content: center;
@@ -1727,7 +1727,7 @@
 }
 
 .slide-2 {
-  background-image: url('../images/Farm_Bill_Photo_6-_1_-1.jpg');
+  background-image: url('../images/Farm_Bill_Photo_6-_1_-1_1.webp');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
