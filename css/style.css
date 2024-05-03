@@ -972,6 +972,7 @@
   color: var(--yellow);
   text-align: left;
   max-width: 300px;
+  padding-top: 0;
   font-family: Inter, sans-serif;
   font-size: 20px;
   line-height: 23px;
@@ -3477,8 +3478,18 @@
   line-height: 30px;
 }
 
-.image-11, .image-12, .image-13, .image-14, .image-15 {
+.image-11, .image-12, .image-13, .image-14, .image-15, .image-12-innovation, .image-13-sustainability, .image-14-economic-impact, .image-15-farmer-stories, .image-11-cornfed {
   display: none;
+}
+
+.s-text-copy {
+  color: var(--yellow);
+  text-align: left;
+  max-width: 200px;
+  padding-top: 10px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 @media screen and (max-width: 991px) {
@@ -4708,7 +4719,7 @@
   .navbar-2 {
     border-style: solid;
     border-width: 0;
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .divblockmenu {
@@ -5057,8 +5068,18 @@
     display: flex;
   }
 
-  .image-12, .image-13, .image-14, .image-15 {
+  .image-12, .image-13, .image-14, .image-15, .image-12-innovation, .image-13-sustainability, .image-14-economic-impact, .image-15-farmer-stories {
     display: inline-flex;
+  }
+
+  .image-11-cornfed {
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+  }
+
+  .s-text-copy {
+    font-size: 18px;
   }
 }
 
